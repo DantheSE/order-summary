@@ -1,0 +1,136 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.fulldesign {
+  margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+   align-items: center;
+  width: 450px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+ 
+
+  background-color: hsl(225, 100%, 98%);
+}
+
+.female {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: red;
+}
+
+.orderhead {
+  color: hsl(223, 47%, 23%);
+  font-size: 30px;
+  font-family: Red Hat Display;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.pdivsupreme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.orderdetails,
+.orderdetails2 {
+  color: hsl(224, 23%, 55%);
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.orderdetails3 {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.halfdesign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: hsl(224, 71%, 96%);
+  margin-bottom: 27px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+.iconmusic {
+  padding-right: 20px;
+}
+
+.priceoverall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 90px;
+}
+
+.priceplandiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordercommencement {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 18px;
+  border-style: none;
+  border-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.ordercommencement:hover {
+  box-shadow: -2px 18px 25px black;
+  background-color: hsl(224, 23%, 55%);
+}
+
+.ordertermination {
+  padding-top: 20px;
+  cursor: pointer;
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 60px;
+  border-style: none;
+}
+
+.ordertermination:hover{
+  font-weight:900;
+}
